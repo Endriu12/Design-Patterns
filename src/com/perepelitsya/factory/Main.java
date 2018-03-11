@@ -4,6 +4,7 @@ import com.perepelitsya.factory.model.Cat;
 import com.perepelitsya.factory.model.Dog;
 import com.perepelitsya.factory.service.IToyFactory;
 import com.perepelitsya.factory.service.TeddyToyFactory;
+import com.perepelitsya.factory.service.WoodenToyFactory;
 
 public class Main {
 
