@@ -7,12 +7,10 @@ import com.perepelitsya.factory.model.dog.WoodenDog;
 
 public class WoodenToyFactory implements IToyFactory {
 
-    @Override
     public Cat getCat() {
         return new WoodenCat();
     }
 
-    @Override
     public Dog getDog() {
         return new WoodenDog();
     }

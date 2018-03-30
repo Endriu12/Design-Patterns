@@ -10,5 +10,8 @@ public class Main {
 
         Lada lad = new Lada(new Yellow());
         lada.draw();
+
+        Lada qwe = new Lada(new Red());
+        qwe.draw();
     }
 }

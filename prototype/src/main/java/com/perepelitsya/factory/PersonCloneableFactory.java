@@ -1,10 +1,9 @@
 package com.perepelitsya.factory;
 
 import com.perepelitsya.Person;
-
+//factory for creating people
 public class PersonCloneableFactory {
     Person person;
-
 
     public PersonCloneableFactory(Person person) {
         setPrototype(person);

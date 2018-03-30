@@ -6,6 +6,7 @@ import lombok.ToString;
 @ToString
 public abstract class PersonBuilder {
    protected Person person;
+
     public void createPerson(){
         person = new Person();
     }
