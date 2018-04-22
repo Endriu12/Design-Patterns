@@ -16,6 +16,7 @@ public class Main {
         PersonCloneableFactory factory = new PersonCloneableFactory(person);
         //We set person to factory for make more clone
         Person person1 = factory.copy();
+        person1.setName("Ми можемо міняти в залежносітого як ми хочемо  ");
         System.out.println(person1.toString());
 
         //also now we can set prototype and make clone
