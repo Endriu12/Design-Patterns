@@ -7,7 +7,7 @@ import java.util.List;
 //composite
 public class Composite implements Person {
 
-    private List<Person> people = new ArrayList<Person>();
+    private List<Person> people = new ArrayList<>();
 
     public void addComponent(Person person) {
         people.add(person);
