@@ -9,7 +9,7 @@ import lombok.Setter;
  */
 @Setter
 @Getter
-public class DecoratorCar extends  Car {
+ class DecoratorCar extends  Car {
     protected Car decoratedCar;
 
     public DecoratorCar(Car decoratedCar) {

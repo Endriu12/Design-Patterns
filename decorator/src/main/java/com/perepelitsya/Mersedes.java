@@ -8,7 +8,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class Mersedes extends Car {
+ class Mersedes extends Car {
     public Mersedes() {
         brandName = "Mersedes";
     }

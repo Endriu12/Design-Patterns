@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Car {
+ class Car {
     protected String brandName;
 
     public void go() {

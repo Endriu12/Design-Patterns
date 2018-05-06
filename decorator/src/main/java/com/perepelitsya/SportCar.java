@@ -8,7 +8,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class SportCar extends DecoratorCar {
+ class SportCar extends DecoratorCar {
     public SportCar(Car decoratedCar) {
         super(decoratedCar);
     }
