@@ -1,4 +1,4 @@
-package com.perepelitsya;
+package com.perepelitsya.prototype;
 
 import lombok.AllArgsConstructor;
 import lombok.Setter;

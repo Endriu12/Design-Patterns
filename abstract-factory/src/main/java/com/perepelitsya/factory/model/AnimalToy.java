@@ -1,4 +1,4 @@
-package com.perepelitsya.factory.model;
+package com.perepelitsya.prototype.factory.model;
 
 public class AnimalToy {
 

@@ -1,6 +1,6 @@
-package com.perepelitsya;
+package com.perepelitsya.prototype;
 
-import com.perepelitsya.factory.PersonCloneableFactory;
+import com.perepelitsya.prototype.factory.PersonCloneableFactory;
 
 public class Main {
 

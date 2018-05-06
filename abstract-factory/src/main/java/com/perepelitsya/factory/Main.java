@@ -1,10 +1,10 @@
-package com.perepelitsya.factory;
+package com.perepelitsya.prototype.factory;
 
-import com.perepelitsya.factory.model.Cat;
-import com.perepelitsya.factory.model.Dog;
-import com.perepelitsya.factory.service.IToyFactory;
-import com.perepelitsya.factory.service.TeddyToyFactory;
-import com.perepelitsya.factory.service.WoodenToyFactory;
+import com.perepelitsya.prototype.factory.model.Cat;
+import com.perepelitsya.prototype.factory.model.Dog;
+import com.perepelitsya.prototype.factory.service.IToyFactory;
+import com.perepelitsya.prototype.factory.service.TeddyToyFactory;
+import com.perepelitsya.prototype.factory.service.WoodenToyFactory;
 
 public class Main {
 

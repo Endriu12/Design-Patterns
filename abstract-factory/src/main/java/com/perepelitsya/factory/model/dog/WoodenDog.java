@@ -1,6 +1,6 @@
-package com.perepelitsya.factory.model.dog;
+package com.perepelitsya.prototype.factory.model.dog;
 
-import com.perepelitsya.factory.model.Dog;
+import com.perepelitsya.prototype.factory.model.Dog;
 
 public class WoodenDog extends Dog {
 

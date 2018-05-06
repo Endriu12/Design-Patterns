@@ -1,7 +1,7 @@
-package com.perepelitsya.factory.service;
+package com.perepelitsya.prototype.factory.service;
 
-import com.perepelitsya.factory.model.Cat;
-import com.perepelitsya.factory.model.Dog;
+import com.perepelitsya.prototype.factory.model.Cat;
+import com.perepelitsya.prototype.factory.model.Dog;
 
 public interface IToyFactory {
 

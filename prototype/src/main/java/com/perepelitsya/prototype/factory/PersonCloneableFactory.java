@@ -1,4 +1,4 @@
-package com.perepelitsya.factory;
+package com.perepelitsya.prototype.factory;
 
 import com.perepelitsya.Person;
 //factory for creating people

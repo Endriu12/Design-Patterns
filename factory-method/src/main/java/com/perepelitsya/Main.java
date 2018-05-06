@@ -1,6 +1,6 @@
 package com.perepelitsya;
 
-import com.perepelitsya.factory.ComputerFactory;
+import com.perepelitsya.prototype.factory.ComputerFactory;
 import com.perepelitsya.model.Computer;
 
 public class Main {
