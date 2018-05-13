@@ -1,7 +1,5 @@
 package com.perepelitsya.prototype;
 
-import com.perepelitsya.prototype.factory.PersonCloneableFactory;
-
 public class Main {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.perepelitsya;
+package com.perepelitsya.composite;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,12 +13,13 @@ import java.util.List;
 @PackagePrivate
 @Getter
 @Setter
-public class Director implements Person {
+public class Worker implements Person {
 
     String name;
 
     public void addComponent(Person person) {
         throw new UnsupportedOperationException("Dont impls");
+
     }
 
     public List<Person> getPersonList() {
@@ -31,6 +32,6 @@ public class Director implements Person {
     }
 
     public void sayHelloWithName() {
-        System.out.println("I am boss!!!!!!!!!! My name is  " + name);
+        System.out.println("I am simple worker " + name);
     }
 }

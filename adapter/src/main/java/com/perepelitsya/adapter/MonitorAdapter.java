@@ -1,4 +1,4 @@
-package com.perepelitsya;
+package com.perepelitsya.adapter;
 
 public class MonitorAdapter extends Monitor implements MonitorFeatures {
 

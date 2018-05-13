@@ -1,4 +1,4 @@
-package com.perepelitsya;
+package com.perepelitsya.composite;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,12 +8,12 @@ import lombok.experimental.PackagePrivate;
 
 import java.util.List;
 
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
+@PackagePrivate
 @Getter
 @Setter
-@PackagePrivate
-public class Trainee implements Person{
+public class Director implements Person {
 
     String name;
 
@@ -31,6 +31,6 @@ public class Trainee implements Person{
     }
 
     public void sayHelloWithName() {
-        System.out.println("I am trainee " + name);
+        System.out.println("I am boss!!!!!!!!!! My name is  " + name);
     }
 }

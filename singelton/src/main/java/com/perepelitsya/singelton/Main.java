@@ -1,4 +1,4 @@
-package com.perepelitsya;
+package com.perepelitsya.singelton;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class Main {
         instance.loggerInfo();
 
 
-        PersonService  service = new PersonService();
+        PersonService service = new PersonService();
         service.hi();
 
         instance.loggerInfo();

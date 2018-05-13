@@ -1,4 +1,4 @@
-package com.perepelitsya;
+package com.perepelitsya.bridge;
 
 public class Audi extends Car {
     protected Audi(DrawApi drawApi) {

@@ -1,4 +1,4 @@
-package com.perepelitsya;
+package com.perepelitsya.composite;
 
 public class Main {
     public static void main(String[] args) {

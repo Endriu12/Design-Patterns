@@ -1,4 +1,4 @@
-package com.perepelitsya;
+package com.perepelitsya.bridge;
 
 public class Green implements DrawApi {
 

@@ -1,6 +1,6 @@
-package com.perepelitsya;
+package com.perepelitsya.bridge;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Car car = new Audi(new Red());
         car.draw();

@@ -1,6 +1,5 @@
-package com.perepelitsya.prototype.factory;
+package com.perepelitsya.prototype;
 
-import com.perepelitsya.Person;
 //factory for creating people
 public class PersonCloneableFactory {
     Person person;

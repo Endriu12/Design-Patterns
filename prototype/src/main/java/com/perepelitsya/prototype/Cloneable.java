@@ -1,5 +1,5 @@
 package com.perepelitsya.prototype;
 
- interface Cloneable<T> {
+public interface Cloneable<T> {
     T clone();
 }

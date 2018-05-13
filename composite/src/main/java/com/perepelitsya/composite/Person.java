@@ -1,6 +1,7 @@
-package com.perepelitsya;
+package com.perepelitsya.composite;
 
 import java.util.List;
+
 //component
 public interface Person {
 

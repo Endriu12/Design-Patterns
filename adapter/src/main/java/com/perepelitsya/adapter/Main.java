@@ -1,6 +1,6 @@
-package com.perepelitsya;
+package com.perepelitsya.adapter;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         MonitorFeatures adapter = new MonitorAdapter();
         adapter.playGames();
